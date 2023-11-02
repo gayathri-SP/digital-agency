@@ -1,0 +1,308 @@
+@font-face{
+    font-family:"Inter-Regular";
+    src: url("font/inter/Inter-Regular.ttf");
+}
+@font-face{
+    font-family:"Inter-Bold";
+    src: url("font/inter/Inter-Bold.ttf");
+}
+@font-face{
+    font-family:"Inter-SemiBold";
+    src: url("font/inter/Inter-SemiBold.ttf");
+}
+@font-face{
+    font-family:"Inter-Light";
+    src: url("font/inter/Inter-Light.ttf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.section-one{
+    padding: 45px 100px 0px;
+    width: 100%;
+}
+.navbar{
+   
+    background-color: #ffffff;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-family:"Inter-Regular";
+    font-size: 18px;
+    color: #272D38;
+}
+.hero-section{
+    padding-top: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+.main-heading{
+    font-family:"Inter-Bold";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color:#272D38;
+    width: 538px;
+    text-transform:capitalize;
+}
+.body-text{
+    font-family:"Inter-Regular";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color:#272D38;
+    width: 514px;
+    text-transform:capitalize;
+    padding-top: 24px;
+}
+.hero-sec-btn{
+    margin-top: 40px;
+    padding: 18px 32px;
+    font-family:"Inter-SemiBold";
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #8EADD5;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero-sec-img img{
+    width: 450px;
+    height: 450px;
+}
+.span-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Inter-Light";
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 150px;
+    color: #667085;
+    padding-bottom: 16px;
+}
+.company-logos{
+    display: flex;
+    margin: auto;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: #F6F6F6;
+    width: 915px;
+    height: 86px;
+    border-radius: 10px;
+}
+.company-logos img{
+    margin: 15px 36px;
+   
+}
+.Branding-Section{
+    width: 100%;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.brand-sec-img img{
+    width: 450px;
+    height: 450px;
+}
+.brand-heading{
+    font-family:"Inter-Bold";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color:#272D38;
+    width: 538px;
+    text-transform:capitalize;
+    padding-top: 120px;
+}
+.brand-text{
+    font-family:"Inter-Regular";
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    color:#272D38;
+    width:430px;
+    text-transform:capitalize;
+    padding-top: 24px;
+}
+.Arrow-img{
+    padding-top: 15px;
+    width: 23px;
+}
+.customer-section{
+    width: 100%;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.cust-sec-heading{
+    font-family:"Inter-Bold";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color:#272D38;
+    width: 538px;
+    text-transform:capitalize;
+    padding-top: 120px;
+}
+.cust-sec-text{
+    font-family:"Inter-Regular";
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    color:#272D38;
+    width:430px;
+    text-transform:capitalize;
+    padding-top: 24px;
+}
+.cust-sec-img img{
+    width: 450px;
+    height: 450px;
+}
+.Testimonial-Section{
+    width: 100%;
+    padding: 50px 100px;
+}
+.Testimonials{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.Testimonial-heading{
+    font-family:"Inter-Regular";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:#272D38;
+}
+.Testimonials p{
+    font-family:"Inter-Bold";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color:#272D38;
+    width:430px;
+    text-transform:capitalize;
+    text-align: center;
+    padding-top: 16px;
+}
+.Testimonial-sec{  
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.Testimonial{
+    margin-top: 40px;
+    height: 350px;
+    width: 365px;
+    background-color: #DEDCDB80;
+    border-radius: 10px;
+}
+.test-img{
+    display: flex;
+    margin: auto;
+    width: 129px;
+    height: 130px;
+   margin-top: 32px;
+  
+}
+.Testimonial h4{
+    font-family:"Inter-Regular";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px 0px 10px;
+    color:#272D38;
+}
+.Testimonial p{
+    font-family:"Inter-Light";
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    /* padding: 10px 20px; */
+    width:359px;
+}
+.Contact-Section{
+    width: 100%;
+    padding: 100px 100px;
+
+}
+.contact-detail{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+}
+.contact-heading{
+    padding-top: 104px;
+    font-family:"Inter-Bold";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color:#272D38;
+    width:430px;
+    
+}
+.contact-text{
+    font-family:"Inter-Regular";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color:#272D38;
+    padding-top: 17px;
+    width: 400px;
+}
+.footer-section{
+    width: 100%;
+    padding: 70px 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-section h4{
+    font-family:"Inter-Bold";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color:#272D38;
+}
+.footer-section li{
+    font-family:"Inter-Light";
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding-top: 30px;
+}
+.logo p{
+    font-family:"Inter-Light";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 250px; 
+    padding-top: 40px;
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Inter-Light";
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+} 
+.menu,.close{
+    display: none;
+}

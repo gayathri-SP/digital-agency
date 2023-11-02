@@ -1,0 +1,265 @@
+
+@media screen and (max-width:1440px){
+    .section-one {
+        padding: 45px 33px 0px;
+    }
+    .nav-menu ul li {
+        margin-left: 35px;
+    }
+    .company-logos img {
+        margin: 15px 55px;
+        width: 113px;
+        height: 52px;
+    }
+    .Branding-Section {
+        padding: 97px 50px;
+        justify-content: space-between;
+    }
+    .customer-section {
+        padding: 40px 50px;
+    }
+    .Testimonial-Section {
+        padding: 50px 101px;
+    }
+    .Testimonial{
+        width: 311px;
+    }
+    .Testimonial p{
+        width: 296px;
+    }
+    .Contact-Section {
+        padding: 50px 70px;
+    }
+    .footer-section {
+        padding: 70px 40px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .section-one {
+        padding: 45px 21px 0px 20px;
+        flex-wrap: wrap;
+    }
+    .main-heading {
+        font-size: 62px;
+        width: 520px;
+    }
+    .hero-sec-btn {
+        padding: 14px 20px;
+    }
+    .Branding-Section {
+        padding: 94px 30px;
+    }
+    .brand-heading{
+        width: 433px;
+    }
+    .customer-section {
+        padding: 20px 30px;
+    }
+    .cust-sec-heading{
+        width: 485px;
+    }
+    .Testimonial-Section {
+        padding: 50px 45px;
+    }
+    .Testimonial-sec {
+        gap: 10px;
+    }
+}
+@media screen and (max-width:991px) {
+    .section-one {
+        padding: 45px 10px 0px 62px;
+    }
+    .Branding-Section {
+        padding: 94px 6px 10px 11px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .customer-section {
+        flex-wrap: wrap;
+        padding: 37px 9px 0px 35px;
+    }
+    .cust-sec-img img {
+        width: 437px;
+        height: 450px;
+    }
+    .brand-heading{
+        width: 431px;
+    }
+    .company-logos img {
+        width: 105px;
+        height: 45px;
+        margin: 11px 23px;
+    }
+    .company-logos {
+        width: 615px;
+        height: 75px;
+    }
+    .contact-detail {
+        flex-wrap: wrap;
+    }
+    .contact-heading {
+        padding-top: 0px;
+        font-size: 45px;
+        width: 338px;
+    }
+    .hero-section {
+       flex-wrap: wrap;
+    }
+    .span-text {
+        margin: auto;
+    }
+    .Testimonial-Section {
+        padding: 50px 20px;
+    }
+    .Testimonial-sec {
+        flex-wrap: wrap;
+    } 
+    .Contact-Section {
+        padding: 50px 70px;
+    }
+    .footer-section {
+        padding: 70px 20px;
+    }
+    .hero-sec-btn {
+        margin-bottom: 20px;
+    }
+    .footer-section li{
+        font-size: 15px;
+    }
+     .menu,.close{
+        display: block;
+     }
+     .nav-menu{
+        width: 350px;
+        height: 100vh;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        transition: .5s ease-out;
+        background-color: #8EADD5;
+    }
+     .nav-menu ul {
+        padding-top: 100px;
+        display: grid;
+        text-align: center;
+        gap: 30px;
+        margin-left: 0px;
+        
+    }
+    .nav-menu ul li a{
+        color: #ffffff;
+    }
+     .nav-menu.active{
+        right: -350px;
+     }
+}
+@media screen and (max-width:650px){
+    .section-one {
+        padding: 45px 10px 0px 18px;
+    }
+    .hero-section{
+        padding-top: 30px;
+    }
+    .main-heading {
+        font-size: 40px;
+        line-height: 50px;
+        width: 336px;
+        text-align: center;
+    }
+    .body-text{
+        width: 310px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .hero-sec-btn {
+        margin-left: 90px;
+    }
+    .span-text{
+        padding-top: 100px;
+    }
+    .company-logos {
+        width: 331px;
+        height: 58px;
+    }
+    .company-logos img {
+        width: 66px;
+        height: 30px;
+        margin: 13px 8px;
+    }
+    .brand-sec-img img {
+        width: 386px;
+        height: 436px;
+    }
+    .brand-heading {
+        width: 364px;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 90px;
+    }
+    .brand-text {
+        font-size: 15px;
+        line-height: 28px;
+        width: 356px;
+        padding-top: 24px;
+        text-align: center;
+    }
+    .customer-section{
+        padding: 37px 9px 0px 15px; 
+    }
+    .cust-sec-heading {
+        width: 347px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .cust-sec-text {
+        font-size: 16px;
+        line-height: 28px;
+        width: 368px;
+        text-align: center;
+    }
+    .Testimonial-Section {
+        padding: 50px 15px;
+    }
+    .Testimonials p{
+        font-size: 40px;
+    }
+    .cont-sec-img img{
+        display: none;
+    }
+    .Contact-Section {
+        padding: 50px 15px;
+    }
+    .contact-heading {
+        font-size: 32px;
+        line-height: 32px;
+        width: 314px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .contact-text {
+        font-size: 16px;
+        width: 323px;
+        text-align: center;  
+    }
+    .footer-section {
+        display: grid;
+        text-align: center;
+        padding: 20px 15px 30px;
+    }
+    .footer-text{
+        font-size: 16px;
+        padding-top: 0px;
+    }
+    .nav-menu{
+        width: 350px;
+        height: 100vh;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        transition: .5s ease-out;
+        background-color:#8EADD5;
+    }
+    .nav-menu.active{
+        right: -360px;
+     }
+}
