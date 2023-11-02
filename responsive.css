@@ -13,7 +13,10 @@
     }
     .Branding-Section {
         padding: 97px 50px;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+    }
+    .brand-heading{
+        width: 431px;
     }
     .customer-section {
         padding: 40px 50px;
@@ -47,10 +50,8 @@
         padding: 14px 20px;
     }
     .Branding-Section {
-        padding: 94px 30px;
-    }
-    .brand-heading{
-        width: 433px;
+        padding: 74px 30px;
+        gap:40px;
     }
     .customer-section {
         padding: 20px 30px;
@@ -72,7 +73,7 @@
     .Branding-Section {
         padding: 94px 6px 10px 11px;
         flex-wrap: wrap;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .customer-section {
         flex-wrap: wrap;
