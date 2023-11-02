@@ -187,6 +187,9 @@
         height: 30px;
         margin: 13px 8px;
     }
+    .Branding-Section{
+        flex-direction: column-reverse;
+    }
     .brand-sec-img img {
         width: 386px;
         height: 436px;
@@ -211,6 +214,7 @@
         width: 100%;
         text-align: center;
         font-size: 40px;
+        padding-top: 0px;
     }
     .cust-sec-text {
         font-size: 16px;
@@ -262,5 +266,14 @@
     }
     .nav-menu.active{
         right: -360px;
-     }
+    }
+    .Arrow-img{
+        display: none;
+    }
+    .arrow-img2{
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+
 }
