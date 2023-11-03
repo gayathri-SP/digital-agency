@@ -72,8 +72,9 @@
     }
     .Branding-Section {
         padding: 94px 6px 10px 11px;
+        flex-direction: column-reverse;
         flex-wrap: wrap;
-        /* justify-content: center; */
+        align-items: center;
     }
     .customer-section {
         flex-wrap: wrap;
@@ -152,6 +153,14 @@
     }
      .nav-menu.active{
         right: -350px;
+    }
+    .Arrow-img{
+        display: none;
+    }
+    .arrow-img2{
+        display: block;
+        text-align: center;
+        padding-top: 30px;
     }
 }
 @media screen and (max-width:650px){
